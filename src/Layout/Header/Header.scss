@@ -1,0 +1,69 @@
+// HEADER TOP STRIPE
+.header-top-strip {
+  width: 100%;
+  height: auto;
+  color: rgb(220, 220, 220);
+  background-color: black;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+  }
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5,
+  .icon6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(220, 220, 220);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .icon1,
+  .icon2 {
+    color: rgba(216, 255, 174, 0.834);
+    margin-right: 2px;
+  }
+  .icon3:hover {
+    color: #427bf7;
+  }
+  .icon4:hover {
+    color: #3a99ec;
+  }
+  .icon5:hover {
+    color: #a8ed31;
+  }
+  .icon6:hover {
+    color: #66cdaa;
+  }
+}
+
+// MAIN HEADER
+.header-main {
+  .icon,
+  h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #646464;
+    text-transform: uppercase;
+  }
+  h5:hover {
+    color: #1b9bff;
+  }
+  .icon {
+    color: #1b9bff;
+  }
+  h1 {
+    font-size: 36px;
+    color: #1b9bff;
+    font-weight: 700;
+    font-family: "MonteCarlo", cursive;
+  }
+}

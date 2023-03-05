@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// COLORS
+$border: #deeaff;
+
+body {
+  border: 10px solid $border;
+}
+
+a {
+  text-decoration: none;
+}
