@@ -65,6 +65,7 @@ const Header = () => {
                 <Link
                   to="/"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
+                  title="Home Page"
                 >
                   <FaHome className="icon" />
                   <h5 className="mb-0">Home</h5>
@@ -73,6 +74,7 @@ const Header = () => {
                   to="https://medium.com/@imtious.islam.me"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
                   target={"_blank"}
+                  title="Medium.com"
                 >
                   <FaFeather className="icon" />
                   <h5 className="mb-0">Articles</h5>
@@ -80,6 +82,7 @@ const Header = () => {
                 <Link
                   to="/projects"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
+                  title="Projects"
                 >
                   <FaLaptopCode className="icon" />
                   <h5 className="mb-0">Projects</h5>
@@ -87,6 +90,7 @@ const Header = () => {
                 <Link
                   to="/about"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
+                  title="About"
                 >
                   <FaUserSecret className="icon" />
                   <h5 className="mb-0">About</h5>
