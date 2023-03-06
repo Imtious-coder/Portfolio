@@ -1,25 +1,36 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import AnimatedText from "react-animated-text-content";
 import { HiOutlineDownload } from "react-icons/hi";
 import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
 import "./Style.scss";
 
-const index = () => {
+const Index = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <Meta title={"Home"} />
       <section className="home-wrapper hero py-3 py-md-5">
         <div className="container-lg py-md-5">
           <div className="row d-flex flex-row-reverse">
-            <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <div
+              data-aos="fade-left"
+              className="col-12 col-md-6 d-flex justify-content-center align-items-center"
+            >
               <img
                 src={HeroImage}
                 alt="hero_image"
                 className="img-fluid h-100 w-75 mb-5 p-4 p-sm-5 p-md-0"
               />
             </div>
-            <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+            <div
+              data-aos="fade-right"
+              className="col-12 col-md-6 d-flex flex-column justify-content-center"
+            >
               <div className="px-lg-4">
                 <h1 className="mb-0 text-center text-sm-start">
                   Imtious Islam
@@ -56,7 +67,7 @@ const index = () => {
                     }}
                     animationType="float"
                     interval={0.02}
-                    duration={0.2}
+                    duration={0.0}
                     tag="p"
                     className="animated-paragraph"
                     includeWhiteSpaces
@@ -86,4 +97,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
