@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import AnimatedText from "react-animated-text-content";
 import { HiOutlineDownload } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
 import "./Style.scss";
@@ -84,9 +85,17 @@ const Index = () => {
                   </AnimatedText>
                 </h6>
                 <div className="d-flex justify-content-center justify-content-sm-start">
-                  <button className="button d-flex justify-content-center align-items-center">
-                    Resume <HiOutlineDownload className="ms-2" />
-                  </button>
+                  <Link
+                    to="https://drive.google.com/file/d/1D53fgFmX6FV5LVcUZgMcig9V4cuY70Ec/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hvr-grow"
+                    download
+                  >
+                    <button className="button d-flex justify-content-center align-items-center">
+                      Resume <HiOutlineDownload className="ms-2" />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

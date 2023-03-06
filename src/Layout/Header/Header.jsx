@@ -26,16 +26,25 @@ const Header = () => {
             </div>
             <div className="col-12 col-md-4">
               <div className="d-flex align-items-center justify-content-center justify-content-lg-end gap-5">
-                <Link to="https://www.facebook.com/imtious.midul/">
+                <Link
+                  to="https://www.facebook.com/imtious.midul/"
+                  target={"_blank"}
+                >
                   <GrFacebookOption className="icon3" />
                 </Link>
-                <Link to="https://www.linkedin.com/in/imtious/">
+                <Link
+                  to="https://www.linkedin.com/in/imtious/"
+                  target={"_blank"}
+                >
                   <GrLinkedinOption className="icon4" />
                 </Link>
-                <Link to="https://github.com/Imtious-coder">
+                <Link to="https://github.com/Imtious-coder" target={"_blank"}>
                   <GrGithub className="icon5" />
                 </Link>
-                <Link to="https://medium.com/@imtious.islam.me">
+                <Link
+                  to="https://medium.com/@imtious.islam.me"
+                  target={"_blank"}
+                >
                   <BsMedium className="icon6" />
                 </Link>
               </div>
@@ -61,21 +70,22 @@ const Header = () => {
                   <h5 className="mb-0">Home</h5>
                 </Link>
                 <Link
-                  to="/"
+                  to="https://medium.com/@imtious.islam.me"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
+                  target={"_blank"}
                 >
                   <FaFeather className="icon" />
                   <h5 className="mb-0">Articles</h5>
                 </Link>
                 <Link
-                  to="/"
+                  to="/projects"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
                 >
                   <FaLaptopCode className="icon" />
                   <h5 className="mb-0">Projects</h5>
                 </Link>
                 <Link
-                  to="/"
+                  to="/about"
                   className="d-flex align-items-center gap-2 py-2 active hvr-bob"
                 >
                   <FaUserSecret className="icon" />
