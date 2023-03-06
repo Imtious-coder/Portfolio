@@ -11,7 +11,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <header className="header-top-strip py-1 py-md-2">
+      <header className="header-top-strip pb-1 pb-md-1">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-8 d-none d-md-flex gap-5">
