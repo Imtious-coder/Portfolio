@@ -47,7 +47,7 @@ const Header = () => {
         <div className="container-lg py-2">
           <div className="row d-flex align-items-center">
             <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
-              <Link to="/">
+              <Link to="/" className="logo">
                 <h1>Imtious Islam</h1>
               </Link>
             </div>
