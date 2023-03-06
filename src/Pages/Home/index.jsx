@@ -1,11 +1,49 @@
 import React from "react";
+import { HiOutlineDownload } from "react-icons/hi";
+import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
+import "./Style.scss";
 
 const index = () => {
   return (
-    <div>
+    <>
       <Meta title={"Home"} />
-    </div>
+      <section className="home-wrapper hero py-3 py-md-5">
+        <div className="container-lg py-md-5">
+          <div className="row d-flex flex-row-reverse">
+            <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <img
+                src={HeroImage}
+                alt="hero_image"
+                className="img-fluid h-100 w-75 mb-5 p-4 p-sm-5 p-md-0"
+              />
+            </div>
+            <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+              <div className="px-lg-4">
+                <h1 className="text-center text-sm-start">Imtious Islam</h1>
+                <h4 className="mb-4 text-center text-sm-start">
+                  Professional Bug Finder
+                </h4>
+                <h6 className="mb-4">
+                  2+ years of professional experience as a Frontend Developer.
+                  Passionate and highly skilled in front-end development with
+                  pixel-perfect design and the use of the latest technologies
+                  and tools. Self-motivated, organized, with excellent time
+                  management skills, and willing to take challenges to improve
+                  my knowledge with the success of the organization. Curious
+                  about AI technology.
+                </h6>
+                <div className="d-flex justify-content-center justify-content-sm-start">
+                  <button className="button d-flex justify-content-center align-items-center">
+                    Resume <HiOutlineDownload className="ms-2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

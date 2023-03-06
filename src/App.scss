@@ -22,3 +22,19 @@ a {
   margin-bottom: 0;
   font-family: "MonteCarlo", cursive;
 }
+
+button {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px 40px;
+  border-radius: 25px;
+  background: #51b4ff;
+  border: 3px solid #51b4ff;
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: scale(1.08);
+  box-shadow: inset 0 0 10px 0.5px #51b4ff, 0 0 30px #76c4ff;
+}
