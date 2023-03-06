@@ -11,20 +11,36 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div className="pb-4 logo">
-                <h1>Imtious Islam</h1>
+              <div className="logo">
+                <h1 className="text-center text-sm-start">Imtious Islam</h1>
               </div>
-              <div className="d-flex mt-4 align-items-center justify-content-start gap-4">
-                <Link className="social1">
+              <div className="d-flex mt-4 align-items-center justify-content-center justify-content-md-start gap-4">
+                <Link
+                  to="https://www.facebook.com/imtious.midul/"
+                  target={"_blank"}
+                  className="social1"
+                >
                   <GrFacebookOption className="icon1" />
                 </Link>
-                <Link className="social2">
+                <Link
+                  to="https://github.com/Imtious-coder"
+                  target={"_blank"}
+                  className="social2"
+                >
                   <GrGithub className="icon2" />
                 </Link>
-                <Link className="social3">
+                <Link
+                  to="https://www.linkedin.com/in/imtious/"
+                  target={"_blank"}
+                  className="social3"
+                >
                   <GrLinkedinOption className="icon3" />
                 </Link>
-                <Link className="social4">
+                <Link
+                  to="https://medium.com/@imtious.islam.me"
+                  target={"_blank"}
+                  className="social4"
+                >
                   <BsMedium className="icon4" />
                 </Link>
               </div>
@@ -35,16 +51,16 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-6">
                     <h5>Support</h5>
-                    <Link to="/">
+                    <Link to="/pricing">
                       <h6>Pricing</h6>
                     </Link>
-                    <Link to="/">
+                    <Link to="/contact">
                       <h6>Contact</h6>
                     </Link>
-                    <Link to="/">
+                    <Link to="/faq">
                       <h6>FAQ</h6>
                     </Link>
-                    <Link to="/">
+                    <Link to="/terms&Conditions">
                       <h6>Terms & Conditions</h6>
                     </Link>
                   </div>
@@ -54,13 +70,16 @@ const Footer = () => {
                     <Link to="/">
                       <h6>Home</h6>
                     </Link>
-                    <Link to="/">
+                    <Link
+                      to="https://medium.com/@imtious.islam.me"
+                      target={"_blank"}
+                    >
                       <h6>Articles</h6>
                     </Link>
-                    <Link to="/">
+                    <Link to="/projects">
                       <h6>Projects</h6>
                     </Link>
-                    <Link to="/">
+                    <Link to="/about">
                       <h6>About</h6>
                     </Link>
                   </div>
