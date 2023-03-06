@@ -2,8 +2,8 @@
 .header-top-strip {
   width: 100%;
   height: auto;
-  color: rgb(220, 220, 220);
-  background-color: black;
+  color: rgb(255, 255, 255);
+  background-color: #1b9bff;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 
@@ -22,26 +22,23 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
-    color: rgb(220, 220, 220);
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.2s;
+  }
+  .icon1 {
+    margin-top: 2px;
   }
   .icon1,
   .icon2 {
-    color: rgba(216, 255, 174, 0.834);
+    color: rgba(255, 255, 255, 0.834);
     margin-right: 2px;
   }
-  .icon3:hover {
-    color: #427bf7;
-  }
-  .icon4:hover {
-    color: #3a99ec;
-  }
-  .icon5:hover {
-    color: #a8ed31;
-  }
+  .icon3:hover,
+  .icon4:hover,
+  .icon5:hover,
   .icon6:hover {
-    color: #66cdaa;
+    color: #00030a;
   }
 }
 

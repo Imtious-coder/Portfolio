@@ -1,5 +1,6 @@
 .footer-wrapper {
   background-color: black;
+  box-shadow: 0px -5px 30px rgb(128, 128, 128);
 
   .logo {
     border-left: 3px solid #1b9bff;
@@ -66,5 +67,13 @@
   }
   h6:hover {
     color: white;
+  }
+}
+
+.footer-wrapper-2 {
+  background-color: #1b9bff;
+
+  h6 {
+    font-size: 12px;
   }
 }

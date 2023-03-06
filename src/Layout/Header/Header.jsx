@@ -3,7 +3,7 @@ import React from "react";
 import { BsMedium } from "react-icons/bs";
 import { FaFeather, FaHome, FaLaptopCode, FaUserSecret } from "react-icons/fa";
 import { GrFacebookOption, GrGithub, GrLinkedinOption } from "react-icons/gr";
-import { MdOutlineMarkEmailUnread, MdPhoneIphone } from "react-icons/md";
+import { MdEmail, MdPhoneIphone } from "react-icons/md";
 import { Link } from "react-router-dom";
 import "../../Assets/Styles/hover.css";
 import "./Header.scss";
@@ -16,7 +16,7 @@ const Header = () => {
           <div className="row">
             <div className="col-12 col-md-8 d-none d-md-flex gap-5">
               <div className="d-flex align-items-center gap-2">
-                <MdOutlineMarkEmailUnread className="icon1" />
+                <MdEmail className="icon1" />
                 <p className="mb-0">imtious.islam.me@gmail.com</p>
               </div>
               <div className="d-flex align-items-center">
