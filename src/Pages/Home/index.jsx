@@ -1,7 +1,8 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import { HiOutlineDownload } from "react-icons/hi";
+import { FaCode, FaLaptopCode, FaSmileWink } from "react-icons/fa";
+import { HiBadgeCheck, HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
@@ -66,6 +67,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      {/* SERVICE SECTION  */}
       <section className="home-wrapper services py-3">
         <div className="container-lg">
           <div className="row">
@@ -84,6 +86,45 @@ const Index = () => {
             </div>
             <div className="col-12">
               <ServiceCard />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* COUNT SECTION */}
+      <section className="home-wrapper counts py-3 py-md-5 my-5">
+        <div className="container-lg">
+          <div className="row">
+            <div className="col-12">
+              <div className="d-flex align-items-center justify-content-between gap-5">
+                <div className="count">
+                  <h2>34+</h2>
+                  <h5>
+                    Complete project &nbsp;
+                    <FaLaptopCode className="icon" />
+                  </h5>
+                </div>
+                <div className="count">
+                  <h2>12k+</h2>
+                  <h5>
+                    Lines of code &nbsp;
+                    <FaCode className="icon" />
+                  </h5>
+                </div>
+                <div className="count">
+                  <h2>2+</h2>
+                  <h5>
+                    years of experience &nbsp;
+                    <HiBadgeCheck className="icon" />
+                  </h5>
+                </div>
+                <div className="count">
+                  <h2>34+</h2>
+                  <h5>
+                    Happy clients &nbsp;
+                    <FaSmileWink className="icon" />
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
