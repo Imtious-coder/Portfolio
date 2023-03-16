@@ -5,6 +5,7 @@ import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
+import ServiceCard from "../../components/ServiceCard/ServiceCard";
 import "./Style.scss";
 
 const Index = () => {
@@ -61,6 +62,28 @@ const Index = () => {
                   </Link>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-wrapper services py-3">
+        <div className="container-lg">
+          <div className="row">
+            <div className="col-12 pb-3 pb-md-5">
+              <div>
+                <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
+                  <span className="border-left">Awesome</span> &nbsp;
+                  <span className="blue">Services</span>
+                </h1>
+                <h6 className="sub-heading">
+                  The best service that you want. Very low pricing for most
+                  advance service. <br /> Contact me for more details about the
+                  services.
+                </h6>
+              </div>
+            </div>
+            <div className="col-12">
+              <ServiceCard />
             </div>
           </div>
         </div>

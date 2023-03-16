@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
 
 // COLORS
 $border: #deeaff;
@@ -18,6 +24,13 @@ a {
 .red {
   color: red;
 }
+.blue {
+  color: #1b9bff;
+}
+.border-left {
+  padding-left: 10px;
+  border-left: 5px solid #1b9bff;
+}
 
 .logo h1 {
   font-size: 42px;
@@ -31,7 +44,7 @@ button {
   color: #fff;
   font-size: 15px;
   font-weight: 700;
-  padding: 5px 40px;
+  padding: 7px 40px;
   border-radius: 25px;
   background: #51b4ff;
   border: 3px solid #51b4ff;

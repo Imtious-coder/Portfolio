@@ -1,3 +1,4 @@
+// HERO SECTION
 .hero {
   h1 {
     font-size: 52px;
@@ -21,8 +22,34 @@
     word-spacing: -2px;
     font-family: "Moulpali", cursive;
   }
-  img {
-    // width: 70%;
-    // height: 80%;
+}
+// HERO SECTION ENDS HERE
+
+// SERVICES SECTION
+.services {
+  .heading span {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+  }
+  .sub-heading {
+    font-size: 16px;
+    color: #454545;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+  }
+  @media only screen and (max-width: 450px) {
+    .heading span {
+      font-size: 28px;
+      line-height: 38px;
+    }
+    .sub-heading {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 }
+// SERVICES SECTION ENDS HERE
