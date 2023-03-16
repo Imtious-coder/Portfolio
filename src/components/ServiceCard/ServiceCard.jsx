@@ -5,7 +5,7 @@ import "./ServiceCard.scss";
 const ServiceCard = () => {
   return (
     <div className="container">
-      <div className="row gap-4 justify-content-center">
+      <div className="row gap-5 justify-content-center">
         {serviceData?.map((service, index) => {
           return (
             <div
