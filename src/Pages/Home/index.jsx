@@ -101,8 +101,8 @@ const Index = () => {
         <div className="container-lg">
           <div className="row">
             <div className="col-12">
-              <div className="d-flex align-items-center justify-content-between gap-5">
-                <div className="count">
+              <div className="row d-flex align-items-center justify-content-between">
+                <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={5} end={34} duration={10} />+
                   </h2>
@@ -111,7 +111,7 @@ const Index = () => {
                     <FaLaptopCode className="icon" />
                   </h5>
                 </div>
-                <div className="count">
+                <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={7} end={12000} duration={5} />
                     k+
@@ -121,7 +121,7 @@ const Index = () => {
                     <FaCode className="icon" />
                   </h5>
                 </div>
-                <div className="count">
+                <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={7} end={2} duration={5} />+
                   </h2>
@@ -130,7 +130,7 @@ const Index = () => {
                     <HiBadgeCheck className="icon" />
                   </h5>
                 </div>
-                <div className="count">
+                <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={9} end={34} duration={5} />+
                   </h2>

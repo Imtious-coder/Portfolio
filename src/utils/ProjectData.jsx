@@ -30,8 +30,7 @@ export const projectData = [
     id: 2,
     name: "Note App",
     type: "Front-End Development",
-    description:
-      "Note Taking Web App. Easy To Use With Live Data Update 📃",
+    description: "Note Taking Web App. Easy To Use With Live Data Update 📃",
     website: "https://note-app-bd.netlify.app/",
     image: "https://i.ibb.co/xJmzFr1/NoteP.png",
     fullImage: "https://i.ibb.co/xJmzFr1/NoteP.png",
@@ -60,8 +59,7 @@ export const projectData = [
     id: 4,
     name: "Password-Generator",
     type: "Password Generator",
-    description:
-      "Password Generator. Generates A Random & Unique Password.",
+    description: "Password Generator. Generates A Random & Unique Password.",
     website: "https://imtious-coder.github.io/Password-Generator/",
     image: "https://i.ibb.co/mrs1Wbp/password-P.png",
     fullImage: "https://i.ibb.co/mrs1Wbp/password-P.png",
@@ -155,8 +153,7 @@ export const projectData = [
     id: 10,
     name: "A_Music",
     type: "Front-End Development",
-    description:
-      "Music Lyric Finder. Just Search By The Music Name 🎸",
+    description: "Music Lyric Finder. Just Search By The Music Name 🎸",
     website: "https://imtious-coder.github.io/A_Music/",
     image: "https://i.ibb.co/Sv0wdqn/A-Music.png",
     fullImage: "https://i.ibb.co/Sv0wdqn/A-Music.png",
@@ -199,8 +196,7 @@ export const projectData = [
     id: 13,
     name: "hello_world",
     type: "Front-End Development",
-    description:
-      "Find The Information About Any Country In The World.",
+    description: "Find The Information About Any Country In The World.",
     website: "https://hello-world-website.netlify.app/",
     image: "https://i.ibb.co/mDDbh4b/helloworld-P2.png",
     fullImage: "https://i.ibb.co/3rQQ793/helloworld-P.png",
