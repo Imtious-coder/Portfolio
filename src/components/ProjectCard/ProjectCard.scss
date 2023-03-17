@@ -9,7 +9,12 @@
   &:hover .details {
     top: 0;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    // border-radius: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: rgb(0, 174, 255);
+    background-image: linear-gradient(180deg, rgba(57, 159, 255, 0.991), rgba(0, 21, 255, 0.991));
   }
 
   p {
@@ -19,28 +24,30 @@
     padding: 10px 20px;
   }
   .details {
-    height: 80%;
+    height: 75%;
     width: 100%;
-    // top: 0;
-    top: 70%;
+    top: 65%;
     left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px 40px;
-    background: rgba(57, 159, 255, 0.991);
+    border-top-right-radius: 25%;
+    border-top-left-radius: 50%;
+    background-image: linear-gradient(180deg, rgba(57, 159, 255, 0.991), rgba(0, 21, 255, 0.991));
+    // background: rgba(57, 159, 255, 0.991);
     transition: all 0.4s ease-in-out;
     h2 {
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 700;
       color: #ffffff;
       text-align: center;
     }
     h5 {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 500;
-      color: #ffffff;
+      color: #ebebeb;
       line-height: 25px;
       text-align: center;
       padding-left: 8px;

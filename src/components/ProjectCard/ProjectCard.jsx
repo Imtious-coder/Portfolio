@@ -20,9 +20,9 @@ const ProjectCard = () => {
                 className="img-fluid d-block m-auto"
               />
               <div className="details position-absolute">
-                <h2 className="mb-3">{projects.name}</h2>
-                <h5 className="mb-3">{projects.type}</h5>
-                <h6 className="mt-3 mb-5">{projects.description}</h6>
+                <h2 className="mb-2">{projects.name}</h2>
+                <h5 className="mb-2">{projects.type}</h5>
+                <h6 className="my-3">{projects.description}</h6>
                 <div className="d-flex justify-content-center gap-3 align-items-center">
                   <button className="button2 d-flex gap-2 align-items-center">
                     <FaEye />
