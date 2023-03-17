@@ -56,3 +56,21 @@ button:hover {
   transform: scale(1.08);
   box-shadow: inset 0 0 10px 0.5px #51b4ff, 0 0 30px #76c4ff;
 }
+
+.button2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 30px;
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid #51b4ff;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.button2:hover {
+  background: #51b4ff;
+  transform: scale(1.08);
+  box-shadow: inset 0 0 10px 0.5px #51b4ff, 0 0 30px #76c4ff;
+}

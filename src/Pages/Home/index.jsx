@@ -2,11 +2,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import CountUp from "react-countup";
+import { AiFillApple } from "react-icons/ai";
 import { FaCode, FaLaptopCode, FaSmileWink } from "react-icons/fa";
 import { HiBadgeCheck, HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
 import "./Style.scss";
 
@@ -91,7 +93,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* COUNT SECTION */}
+      {/* COUNTUP SECTION */}
       <section
         data-aos="zoom-out-down"
         className="home-wrapper counts py-3 py-md-5 my-5"
@@ -138,6 +140,34 @@ const Index = () => {
                   </h5>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* PROJECTS SECTION */}
+      <section className="home-wrapper services py-3">
+        <div className="container-lg">
+          <div className="row">
+            <div className="col-12 pb-3 pb-md-5">
+              <div>
+                <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
+                  <span className="border-left">Creative</span> &nbsp;
+                  <span className="blue">Portfolio</span>
+                </h1>
+                <h6 className="sub-heading">
+                  A portfolio is much more than a simple showcase of work, its
+                  personality is just as important <br /> as the projects
+                  displayed on it.
+                </h6>
+              </div>
+            </div>
+            <div className="col-12">
+              <ProjectCard />
+            </div>
+            <div className="col-12">
+              <button className="d-block m-auto my-5 d-flex gap-2 align-items-center">
+                All Projects <AiFillApple />
+              </button>
             </div>
           </div>
         </div>

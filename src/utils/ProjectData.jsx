@@ -1,9 +1,9 @@
-export const services = [
+export const projectData = [
   {
     id: 0,
     name: "Steadfast",
-    description: "Full Stack MERN Development",
-    information:
+    type: "Full Stack MERN Development",
+    description:
       "This is a MERN Stack based agency website to manage their employee and recruiters.",
     website: "https://steadfast-ltd.netlify.app/",
     image: "https://i.ibb.co/mz4tByb/Image.png",
@@ -16,8 +16,8 @@ export const services = [
   {
     id: 1,
     name: "Calculator",
-    description: "Front-End Development",
-    information:
+    type: "Front-End Development",
+    description:
       "This is a Front-End based Calculator. It's fully responsive and smooth.",
     website: "https://dreamy-curran-97dd26.netlify.app/",
     image: "https://i.ibb.co/SnTNcJg/calculator.png",
@@ -30,8 +30,8 @@ export const services = [
   {
     id: 2,
     name: "Note App",
-    description: "Front-End Development",
-    information:
+    type: "Front-End Development",
+    description:
       "A note taking app by JavaScript. Simply click on the Add+ button to create a note and start editing.",
     website: "https://note-app-bd.netlify.app/",
     image: "https://i.ibb.co/xJmzFr1/NoteP.png",
@@ -45,8 +45,8 @@ export const services = [
   {
     id: 3,
     name: "Temperature-Finder",
-    description: "Most updated temperature",
-    information: "Temperature finder website. Search by your country name.",
+    type: "Most updated temperature",
+    description: "Temperature finder website. Search by your country name.",
     website: "https://imtious-coder.github.io/Temperature-Finder/",
     image: "https://i.ibb.co/xm0J5hv/Temperature1.png",
     fullImage: "https://i.ibb.co/xm0J5hv/Temperature1.png",
@@ -60,8 +60,8 @@ export const services = [
   {
     id: 4,
     name: "Password-Generator",
-    description: "Password Generator",
-    information:
+    type: "Password Generator",
+    description:
       "A random password generator. Generate password as user need. ",
     website: "https://imtious-coder.github.io/Password-Generator/",
     image: "https://i.ibb.co/mrs1Wbp/password-P.png",
@@ -76,8 +76,8 @@ export const services = [
   {
     id: 5,
     name: "Quiz_App",
-    description: "Quiz Functionality",
-    information: "A simple quiz app by JavaScript.",
+    type: "Quiz Functionality",
+    description: "A simple quiz app by JavaScript.",
     website: "https://imtious-coder.github.io/Quiz_App/",
     image: "https://i.ibb.co/RjMwv3t/quizP.png",
     fullImage: "https://i.ibb.co/RjMwv3t/quizP.png",
@@ -91,8 +91,8 @@ export const services = [
   {
     id: 6,
     name: "Amazon_Login_CLone",
-    description: "Login system",
-    information: "Frontend based fully cloned login system of amazon.",
+    type: "Login system",
+    description: "Frontend based fully cloned login system of amazon.",
     website: "https://fir-14da6.web.app/",
     image: "https://i.ibb.co/D93KVCS/Amazon1.png",
     fullImage: "https://i.ibb.co/ZMSTMFY/loginP.png",
@@ -106,26 +106,26 @@ export const services = [
   {
     id: 7,
     name: "My_School",
-    description: "School management system",
-    information:
+    type: "School management system",
+    description:
       "Ongoing full-stack project including all management system for a school.",
     website: "https://myschool-com.web.app/",
     image: "https://i.ibb.co/gDkB5Fy/School1.jpg",
     fullImage: "https://i.ibb.co/wSkLDYd/schoolP.png",
     code: "https://github.com/Imtious-coder/My_School",
     li1: " 1: School Management System.",
-    li2: " 2: Teachers information.",
+    li2: " 2: Teachers description.",
     li3: " 3: All notice.",
-    li4: " 4: Students information.",
+    li4: " 4: Students description.",
     li5: " 5: Admin/Teachers can add or remove a notice.",
     li6: " 6: Admin/Teachers are able to update results.",
-    li7: " 7: Students can update their information's.",
+    li7: " 7: Students can update their description's.",
   },
   {
     id: 8,
     name: "Countdown-Timer",
-    description: "Countdown Functionality",
-    information:
+    type: "Countdown Functionality",
+    description:
       "A countdown website with static data. It can count every remaining seconds.",
     website: "https://imtious-coder.github.io/Countdown-Timer/",
     image: "https://i.ibb.co/PW46bVW/countP.png",
@@ -140,8 +140,8 @@ export const services = [
   {
     id: 9,
     name: "Crickmus",
-    description: "Team selector website.",
-    information: "A team selector website by using React.js",
+    type: "Team selector website.",
+    description: "A team selector website by using React.js",
     website: "https://crickmus.netlify.app",
     image: "https://i.ibb.co/vd9XxYt/crickmus-P2.png",
     fullImage: "https://i.ibb.co/8c6JVbP/crickmus-P.png",
@@ -155,8 +155,8 @@ export const services = [
   {
     id: 10,
     name: "A_Music",
-    description: "Front-End Development",
-    information:
+    type: "Front-End Development",
+    description:
       "A music lyric finder. You can find any available music lyric on this site.",
     website: "https://imtious-coder.github.io/A_Music/",
     image: "https://i.ibb.co/Sv0wdqn/A-Music.png",
@@ -171,8 +171,8 @@ export const services = [
   {
     id: 11,
     name: "ALGONIO",
-    description: "PSD to HTML5",
-    information: "This is a PSD to HTML website.",
+    type: "PSD to HTML5",
+    description: "This is a PSD to HTML website.",
     website: "https://imtious-coder.github.io/ALGONIO/",
     image: "https://i.ibb.co/WDsy45j/algonio-P2.png",
     fullImage: "https://i.ibb.co/1b5mPwW/algonioP.png",
@@ -186,8 +186,8 @@ export const services = [
   {
     id: 12,
     name: "A_Doctors",
-    description: "Front-End Development",
-    information: "Doctors appointment taking website by JavaScript(React).",
+    type: "Front-End Development",
+    description: "Doctors appointment taking website by JavaScript(React).",
     website: "https://keen-sinoussi-d5c500.netlify.app/",
     image: "https://i.ibb.co/dKSZ3tX/adoctors-P2.png",
     fullImage: "https://i.ibb.co/VxTDQV3/adoctors-P.png",
@@ -199,24 +199,24 @@ export const services = [
   {
     id: 13,
     name: "hello_world",
-    description: "Front-End Development",
-    information:
-      "This is a SPA site, where you can find information about any country in the world",
+    type: "Front-End Development",
+    description:
+      "This is a SPA site, where you can find description about any country in the world",
     website: "https://hello-world-website.netlify.app/",
     image: "https://i.ibb.co/mDDbh4b/helloworld-P2.png",
     fullImage: "https://i.ibb.co/3rQQ793/helloworld-P.png",
     code: "https://github.com/Imtious-coder/hello_world",
-    li1: " 1: Information of every country.",
+    li1: " 1: description of every country.",
     li2: " 2: Find any country.",
     li3: " 3: Click to view details.",
-    li4: " 4: The most updated information.",
+    li4: " 4: The most updated description.",
     li5: " 5: Clean & well commented code.",
   },
   {
     id: 14,
     name: "StoreX",
-    description: "PSD to HTML",
-    information: "A Pixel Perfect fully responsive PSD to HTML site.",
+    type: "PSD to HTML",
+    description: "A Pixel Perfect fully responsive PSD to HTML site.",
     website: "https://imtious-coder.github.io/Store_X/",
     image: "https://i.ibb.co/ZJv3H5d/StoreX1.jpg",
     fullImage: "https://i.ibb.co/rbYz7Kq/storexP.png",
@@ -230,8 +230,8 @@ export const services = [
   {
     id: 15,
     name: "A_ShopBD",
-    description: "E-commerce Web App",
-    information: "Full-stack e-commerce project by React, Node, and MongoDB.",
+    type: "E-commerce Web App",
+    description: "Full-stack e-commerce project by React, Node, and MongoDB.",
     website: "https://ema-john-7355e.web.app/",
     image: "https://i.ibb.co/KwfQnpJ/Ashop1.png",
     fullImage: "https://i.ibb.co/fGpDM3d/ashopP.png",
