@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
+import CountUp from "react-countup";
 import { FaCode, FaLaptopCode, FaSmileWink } from "react-icons/fa";
 import { HiBadgeCheck, HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
@@ -91,34 +92,46 @@ const Index = () => {
         </div>
       </section>
       {/* COUNT SECTION */}
-      <section className="home-wrapper counts py-3 py-md-5 my-5">
+      <section
+        data-aos="zoom-out-down"
+        className="home-wrapper counts py-3 py-md-5 my-5"
+      >
         <div className="container-lg">
           <div className="row">
             <div className="col-12">
               <div className="d-flex align-items-center justify-content-between gap-5">
                 <div className="count">
-                  <h2>34+</h2>
+                  <h2>
+                    <CountUp delay={5} end={34} duration={10} />+
+                  </h2>
                   <h5>
                     Complete project &nbsp;
                     <FaLaptopCode className="icon" />
                   </h5>
                 </div>
                 <div className="count">
-                  <h2>12k+</h2>
+                  <h2>
+                    <CountUp delay={7} end={12000} duration={5} />
+                    k+
+                  </h2>
                   <h5>
                     Lines of code &nbsp;
                     <FaCode className="icon" />
                   </h5>
                 </div>
                 <div className="count">
-                  <h2>2+</h2>
+                  <h2>
+                    <CountUp delay={7} end={2} duration={5} />+
+                  </h2>
                   <h5>
                     years of experience &nbsp;
                     <HiBadgeCheck className="icon" />
                   </h5>
                 </div>
                 <div className="count">
-                  <h2>34+</h2>
+                  <h2>
+                    <CountUp delay={9} end={34} duration={5} />+
+                  </h2>
                   <h5>
                     Happy clients &nbsp;
                     <FaSmileWink className="icon" />
