@@ -217,7 +217,6 @@ const Index = () => {
                   height="300"
                   style={{ border: "0" }}
                   allowfullscreen=""
-                  loading="lazy"
                   className="rounded"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
