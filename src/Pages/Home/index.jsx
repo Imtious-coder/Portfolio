@@ -94,7 +94,7 @@ const Index = () => {
       </section>
       {/* COUNTUP SECTION */}
       <section
-        data-aos="zoom-out-down"
+        data-aos="zoom-in"
         className="home-wrapper counts py-3 py-md-5 my-5"
       >
         <div className="container-lg">
