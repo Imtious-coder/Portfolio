@@ -168,7 +168,7 @@ const Index = () => {
         </div>
       </section>
       {/* MARQUEE SECTION */}
-      <section className="home-wrapper marquee py-4 mt-4 mb-5">
+      <section className="home-wrapper marquee py-5 mt-4 mb-5">
         <div className="container-lg">
           <div className="row">
             <div className="col-12">
@@ -183,6 +183,30 @@ const Index = () => {
                   <img src={Logo7} alt="logo7" className="img-fluid logo7" />
                 </div>
               </Marquee>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* CONTACT FORM */}
+      <section className="home-wrapper contact-form py-5">
+        <div className="container-lg">
+          <div className="row">
+            <div className="col-12 pb-3 pb-md-5">
+              <div>
+                <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
+                  <span className="border-left">Creative</span> &nbsp;
+                  <span className="blue">Portfolio</span>
+                </h1>
+                <h6 className="sub-heading">
+                  A portfolio is much more than a simple showcase of work, its
+                  personality is just as important <br /> as the projects
+                  displayed on it.
+                </h6>
+              </div>
+            </div>
+            <div className="col-12 col-md-6"></div>
+            <div className="col-12 col-md-6">
+              <form action=""></form>
             </div>
           </div>
         </div>

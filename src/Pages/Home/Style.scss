@@ -150,25 +150,25 @@
     background-color: none;
   }
   .logo1 {
-    width: 100px;
-    height: 60px;
+    width: 150px;
+    height: 80px;
     margin: 0px 50px 0px 100px;
   }
   .logo2,
   .logo6 {
-    width: 80px;
-    height: 60px;
+    width: 100px;
+    height: 80px;
     margin: 0px 50px;
   }
   .logo3 {
-    width: 150px;
-    height: 60px;
+    width: 250px;
+    height: 80px;
     margin: 0px 50px;
   }
   .logo4,
   .logo5 {
-    width: 100px;
-    height: 60px;
+    width: 150px;
+    height: 80px;
     margin: 0px 50px;
     border-radius: 10px;
   }
@@ -177,8 +177,8 @@
     background-color: rgb(246, 239, 255);
   }
   .logo7 {
-    width: 150px;
-    height: 60px;
+    width: 250px;
+    height: 80px;
     margin: 0px 100px 0px 50px;
     padding: 20px;
     background-color: white;
@@ -186,3 +186,32 @@
   }
 }
 // MARQUEE SECTION ENDS HERE
+
+// CONTACT US SECTION
+.contact-form {
+  .heading span {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+  }
+  .sub-heading {
+    font-size: 16px;
+    color: #454545;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+  }
+  @media only screen and (max-width: 450px) {
+    .heading span {
+      font-size: 28px;
+      line-height: 38px;
+    }
+    .sub-heading {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+// CONTACT US SECTION ENDS HERE
