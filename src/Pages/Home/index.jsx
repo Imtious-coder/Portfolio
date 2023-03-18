@@ -3,8 +3,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import { AiFillApple } from "react-icons/ai";
-import { FaCode, FaLaptopCode, FaSmileWink } from "react-icons/fa";
-import { HiBadgeCheck, HiOutlineDownload } from "react-icons/hi";
+import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
 import Meta from "../../components/Meta/Meta";
@@ -102,42 +101,30 @@ const Index = () => {
           <div className="row">
             <div className="col-12">
               <div className="row d-flex align-items-center justify-content-between">
-                <div className="col-12 col-sm-6 col-md-3 count">
+                <div className=" pt-5 pt-sm-0 col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={5} end={34} duration={10} />+
                   </h2>
-                  <h5>
-                    Complete project &nbsp;
-                    <FaLaptopCode className="icon" />
-                  </h5>
+                  <h5>Project Done ✅</h5>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={7} end={12000} duration={5} />
                     k+
                   </h2>
-                  <h5>
-                    Lines of code &nbsp;
-                    <FaCode className="icon" />
-                  </h5>
+                  <h5>Lines of coding 👩🏻‍💻</h5>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={7} end={2} duration={5} />+
                   </h2>
-                  <h5>
-                    years of experience &nbsp;
-                    <HiBadgeCheck className="icon" />
-                  </h5>
+                  <h5>years of experience 💪🏻</h5>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
-                    <CountUp delay={9} end={34} duration={5} />+
+                    <CountUp delay={9} end={750} duration={5} />+
                   </h2>
-                  <h5>
-                    Happy clients &nbsp;
-                    <FaSmileWink className="icon" />
-                  </h5>
+                  <h5>coffee completed 🍵</h5>
                 </div>
               </div>
             </div>
