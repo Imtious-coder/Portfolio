@@ -208,7 +208,7 @@ const Index = () => {
                 </h6>
               </div>
             </div>
-            <div className="col-12 col-md-6 my-5 my-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
+            <div className="col-12 col-md-6 my-5 mt-3 my-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
               <div className="map d-flex align-items-center overflow-hidden">
                 <iframe
                   title="Map"

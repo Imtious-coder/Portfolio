@@ -51,7 +51,6 @@ button {
     rgba(0, 21, 255, 0.991),
     rgba(57, 159, 255, 0.991)
   );
-
   border: 1px solid;
   border-image: linear-gradient(
     80deg,
@@ -64,11 +63,6 @@ button {
 
 button:hover {
   transform: scale(1.08);
-  // background-image: linear-gradient(
-  //   80deg,
-  //   rgba(57, 159, 255, 0.991),
-  //   rgba(0, 21, 255, 0.991)
-  // );
   box-shadow: inset 0 0 10px 0.5px rgba(0, 21, 255, 0.991),
     0 0 30px rgba(57, 159, 255, 0.991);
 }

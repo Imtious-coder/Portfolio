@@ -11,7 +11,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <header className="header-top-strip pb-1 pb-md-1">
+      <header className="header-top-strip pb-1 mb-1 mb-md-4">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-8 d-none d-md-flex gap-5">
@@ -52,7 +52,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <header className="header-main py-2 py-md-4">
+      <header className="header-main pb-1 sticky-top">
         <div className="container-lg py-2">
           <div className="row d-flex align-items-center">
             <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
