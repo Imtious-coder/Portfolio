@@ -2,10 +2,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import CountUp from "react-countup";
+import Marquee from "react-fast-marquee";
 import { AiFillApple } from "react-icons/ai";
 import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
+import Logo1 from "../../Assets/Images/marqueeLogo01.webp";
+import Logo2 from "../../Assets/Images/marqueeLogo02.jpg";
+import Logo3 from "../../Assets/Images/marqueeLogo03.avif";
+import Logo4 from "../../Assets/Images/marqueeLogo04.webp";
+import Logo5 from "../../Assets/Images/marqueeLogo05.jpeg";
+import Logo6 from "../../Assets/Images/marqueeLogo06.png";
+import Logo7 from "../../Assets/Images/marqueeLogo07.png";
 import Meta from "../../components/Meta/Meta";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
@@ -70,7 +78,7 @@ const Index = () => {
         </div>
       </section>
       {/* SERVICE SECTION  */}
-      <section className="home-wrapper services py-3">
+      <section className="home-wrapper services py-3 mt-3 mt-sm-0">
         <div className="container-lg">
           <div className="row">
             <div className="col-12 pb-3 pb-md-5">
@@ -132,7 +140,7 @@ const Index = () => {
         </div>
       </section>
       {/* PROJECTS SECTION */}
-      <section className="home-wrapper services py-3">
+      <section className="home-wrapper projects py-3">
         <div className="container-lg">
           <div className="row">
             <div className="col-12 pb-3 pb-md-5">
@@ -155,6 +163,26 @@ const Index = () => {
               <button className="d-block m-auto my-5 d-flex gap-2 align-items-center">
                 All Projects <AiFillApple />
               </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* MARQUEE SECTION */}
+      <section className="home-wrapper marquee py-4 mt-4 mb-5">
+        <div className="container-lg">
+          <div className="row">
+            <div className="col-12">
+              <Marquee speed="40" gradientColor={[17, 0, 13]}>
+                <div className="d-flex align-items-center-justify-content-center gap-5">
+                  <img src={Logo1} alt="logo1" className="img-fluid logo1" />
+                  <img src={Logo2} alt="logo2" className="img-fluid logo2" />
+                  <img src={Logo3} alt="logo3" className="img-fluid logo3" />
+                  <img src={Logo5} alt="logo5" className="img-fluid logo5" />
+                  <img src={Logo4} alt="logo4" className="img-fluid logo4" />
+                  <img src={Logo6} alt="logo6" className="img-fluid logo6" />
+                  <img src={Logo7} alt="logo7" className="img-fluid logo7" />
+                </div>
+              </Marquee>
             </div>
           </div>
         </div>
