@@ -1,3 +1,4 @@
+import { useForm, ValidationError } from "@formspree/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -23,6 +24,9 @@ const Index = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  const [state, handleSubmit] = useForm("xwkjqgyg");
+
   return (
     <>
       <Meta title={"Home"} />
@@ -78,10 +82,10 @@ const Index = () => {
         </div>
       </section>
       {/* SERVICE SECTION  */}
-      <section className="home-wrapper services py-3 mt-3 mt-sm-0">
+      <section className="home-wrapper services py-3 mt-4 mt-md-3">
         <div className="container-lg">
           <div className="row">
-            <div className="col-12 pb-3 pb-md-5">
+            <div className="col-12 pb-5">
               <div>
                 <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
                   <span className="border-left">Awesome</span> &nbsp;
@@ -194,19 +198,80 @@ const Index = () => {
             <div className="col-12 pb-3 pb-md-5">
               <div>
                 <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
-                  <span className="border-left">Creative</span> &nbsp;
-                  <span className="blue">Portfolio</span>
+                  <span className="border-left">Contact</span> &nbsp;
+                  <span className="blue">Me</span>
                 </h1>
                 <h6 className="sub-heading">
-                  A portfolio is much more than a simple showcase of work, its
-                  personality is just as important <br /> as the projects
-                  displayed on it.
+                  You can tell me about your project in this form or contact me
+                  by Email, <br /> LinkedIn, Facebook, Messenger or Phone Number
+                  😊
                 </h6>
               </div>
             </div>
-            <div className="col-12 col-md-6"></div>
+            <div className="col-12 col-md-6 my-5 my-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
+              <div className="map d-flex align-items-center overflow-hidden">
+                <iframe
+                  title="Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2046410.7233186755!2d90.79119435455188!3d23.373233044242355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f249815015d%3A0x549a77e542115f77!2sCumilla!5e0!3m2!1sen!2sbd!4v1679119575079!5m2!1sen!2sbd"
+                  width="440"
+                  height="300"
+                  style={{ border: "0" }}
+                  allowfullscreen=""
+                  loading="lazy"
+                  className="rounded"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
             <div className="col-12 col-md-6">
-              <form action=""></form>
+              <form onSubmit={handleSubmit}>
+                <p className="fw-bold text-primary mb-2">Name</p>
+                <input
+                  type="text"
+                  name="FirstName"
+                  className="form-control mb-3"
+                  id="validationTooltip01"
+                  placeholder="Full name ✍🏻"
+                  required
+                />
+                <p className="fw-bold text-primary mb-2">Email</p>
+                <input
+                  type="email"
+                  name="Email"
+                  className="form-control mb-3"
+                  placeholder="Your E-mail 📧"
+                  id="validationTooltipUsername"
+                  aria-describedby="validationTooltipUsernamePrepend"
+                  required
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
+                <p className="fw-bold text-primary mb-2">Message</p>
+                <input
+                  type="text"
+                  name="Message"
+                  className="form-control pt-5 pb-5 text-center mb-3"
+                  placeholder="Type your message here... 👩🏻‍💻"
+                  id="validationTooltip05"
+                  required
+                />
+                {state.succeeded ? (
+                  <p className="text-success mb-0 text-center">
+                    Message sent successfully ✅
+                  </p>
+                ) : (
+                  ""
+                )}
+                <button
+                  className="mt-4 hvr-grow d-block mx-auto mx-md-0"
+                  type="submit"
+                >
+                  S E N D ➡️
+                </button>
+              </form>
             </div>
           </div>
         </div>

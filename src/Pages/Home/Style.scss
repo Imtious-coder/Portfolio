@@ -203,6 +203,17 @@
     text-align: center;
     line-height: 26px;
   }
+
+  input {
+    font-size: 14px;
+    padding: 8px 0px 10px 15px;
+    background-color: #f0f8ff;
+  }
+
+  .map {
+    border-radius: 10px;
+  }
+
   @media only screen and (max-width: 450px) {
     .heading span {
       font-size: 28px;
