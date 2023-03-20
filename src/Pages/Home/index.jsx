@@ -181,7 +181,7 @@ const Index = () => {
             </div>
             <div className="col-12 d-flex justify-content-center">
               <Link
-                to="/allProjects"
+                to="/projects"
                 className="button my-5 d-flex gap-2 align-items-center justify-content-center"
               >
                 All Projects <AiFillApple />

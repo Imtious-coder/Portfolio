@@ -2,24 +2,33 @@ import React from "react";
 import { BsArrowUpCircle } from "react-icons/bs";
 import { FaEye } from "react-icons/fa";
 import { MdAdsClick } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { projectData } from "../../utils/ProjectData";
 import "./ProjectCard.scss";
 
 const ProjectCard = () => {
+  const { pathname } = useLocation();
   return (
-    <div className="container">
+    <div className={`${
+      pathname === "/projects"
+        ? "px-4 px-md-5 "
+        : "px-0"
+    } container`}>
       <div className="row gap-4 justify-content-center">
         {projectData?.map((projects, index) => {
           return (
             <div
-              className="col-12 col-md-5 col-lg-4 my-4 my-sm-0 p-0 project-card position-relative hvr-box-shadow-outset"
+              className={`${
+                pathname === "/projects"
+                  ? "col-12 all-project-card"
+                  : "col-12 col-md-5 col-lg-4"
+              } my-4 my-sm-0 p-0 project-card position-relative hvr-box-shadow-outset`}
               key={index}
             >
               <iframe
                 src={projects.website}
                 title="website"
-                className="h-100 w-100 website"
+                className="website"
               ></iframe>
               <div className="details position-absolute">
                 <div className="position-absolute up">
