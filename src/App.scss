@@ -6,9 +6,6 @@
 ::-webkit-scrollbar {
   width: 0px;
 }
-::-webkit-scrollbar-thumb {
-  background: #ff0000;
-}
 
 // COLORS
 $border: #deeaff;
@@ -51,12 +48,7 @@ button {
     rgba(0, 21, 255, 0.991),
     rgba(57, 159, 255, 0.991)
   );
-  border: 1px solid;
-  border-image: linear-gradient(
-    80deg,
-    rgba(0, 21, 255, 0.991),
-    rgba(57, 159, 255, 0.991)
-  );
+  border: none;
   border-radius: 55px;
   transition: all 0.4s;
 }
@@ -64,7 +56,7 @@ button {
 button:hover {
   transform: scale(1.08);
   box-shadow: inset 0 0 10px 0.5px rgba(0, 21, 255, 0.991),
-    0 0 30px rgba(57, 159, 255, 0.991);
+    0 0 30px rgba(120, 190, 255, 0.991);
 }
 
 .button2 {

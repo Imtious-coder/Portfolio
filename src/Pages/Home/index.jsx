@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import Marquee from "react-fast-marquee";
 import { AiFillApple } from "react-icons/ai";
+import { FaBug, FaReact } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import HeroImage from "../../Assets/Images/hero.png";
@@ -30,6 +31,7 @@ const Index = () => {
   return (
     <>
       <Meta title={"Home"} />
+      {/* HERO SECTION */}
       <section className="home-wrapper hero py-3 py-md-5">
         <div className="container-lg py-md-5">
           <div className="row d-flex flex-row-reverse">
@@ -51,17 +53,24 @@ const Index = () => {
                 <h1 className="mb-0 text-center text-sm-start">
                   Imtious Islam
                 </h1>
-                <h4 className="mb-3 text-center text-sm-start">
-                  Professional Bug Finder & React Developer
+                <h4 className="mb-3 mt-2 text-center text-sm-start d-flex align-items-center">
+                  Professional &nbsp;
+                  <span className="blue d-flex align-items-center">
+                    React Developer <FaReact />
+                  </span>
+                  &nbsp; & &nbsp;
+                  <span className="red d-flex align-items-center">
+                    Bug Finder <FaBug />
+                  </span>
                 </h4>
                 <h6 className="mb-4">
-                  2+ years of professional experience as a Frontend Developer.
-                  Passionate and highly skilled in front-end development with
-                  pixel-perfect design and the use of the latest technologies
-                  and tools. Self-motivated, organized, with excellent time
-                  management skills, and willing to take challenges to improve
-                  my knowledge with the success of the organization. Curious
-                  about AI technology.
+                  <strong>2+</strong> years of professional experience as a
+                  Frontend Developer. Passionate and highly skilled in front-end
+                  development with pixel-perfect design and the use of the
+                  latest technologies and tools. Self-motivated, organized, with
+                  excellent time management skills, and willing to take
+                  challenges to improve my knowledge with the success of the
+                  organization. Curious about AI technology.
                 </h6>
                 <div className="d-flex justify-content-center justify-content-sm-start">
                   <Link
@@ -130,13 +139,13 @@ const Index = () => {
                   <h2>
                     <CountUp delay={7} end={2} duration={5} />+
                   </h2>
-                  <h5>years of experience 💪🏻</h5>
+                  <h5>Years of experience 💪🏻</h5>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
                     <CountUp delay={9} end={750} duration={5} />+
                   </h2>
-                  <h5>coffee completed 🍵</h5>
+                  <h5>Coffee Consumed 🍵</h5>
                 </div>
               </div>
             </div>
@@ -216,7 +225,7 @@ const Index = () => {
                   width="440"
                   height="300"
                   style={{ border: "0" }}
-                  allowfullscreen=""
+                  allowFullScreen=""
                   className="rounded"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
