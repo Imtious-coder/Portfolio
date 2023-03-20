@@ -179,10 +179,13 @@ const Index = () => {
             <div className="col-12">
               <ProjectCard />
             </div>
-            <div className="col-12">
-              <button className="d-block m-auto my-5 d-flex gap-2 align-items-center">
+            <div className="col-12 d-flex justify-content-center">
+              <Link
+                to="/allProjects"
+                className="button my-5 d-flex gap-2 align-items-center justify-content-center"
+              >
                 All Projects <AiFillApple />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -218,9 +221,9 @@ const Index = () => {
                   <span className="blue">Me</span>
                 </h1>
                 <h6 className="sub-heading">
-                  Tell me about your project. Send a message by the form or contact me
-                  by Email, <br /> LinkedIn, Facebook, Messenger or Phone Number
-                  😊
+                  Tell me about your project. Send a message by the form or
+                  contact me by Email, <br /> LinkedIn, Facebook, Messenger or
+                  Phone Number 😊
                 </h6>
               </div>
             </div>
@@ -281,7 +284,7 @@ const Index = () => {
                   ""
                 )}
                 <button
-                  className="mt-4 hvr-grow d-block mx-auto mx-md-0"
+                  className="button mt-4 hvr-grow d-block mx-auto mx-md-0"
                   type="submit"
                 >
                   S E N D ➡️
