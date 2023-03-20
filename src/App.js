@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './Layout/Layout/Layout.jsx';
+import About from './Pages/About/About';
 import AllProjects from './Pages/AllProjects/AllProjects';
 import Home from './Pages/Home/index.jsx';
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
@@ -15,6 +16,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/projects" element={<AllProjects />} />
             <Route path="projects/:projectName" element={<ProjectDetails />} />
+            <Route path="/about" element={<About />} />
           </Route>
         </Routes>
       </BrowserRouter>

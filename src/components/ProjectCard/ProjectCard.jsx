@@ -9,11 +9,11 @@ import "./ProjectCard.scss";
 const ProjectCard = () => {
   const { pathname } = useLocation();
   return (
-    <div className={`${
-      pathname === "/projects"
-        ? "px-4 px-md-5 "
-        : "px-0"
-    } container`}>
+    <div
+      className={`${
+        pathname === "/projects" ? "px-4 px-md-5 " : "px-0"
+      } container`}
+    >
       <div className="row gap-4 justify-content-center">
         {projectData?.map((projects, index) => {
           return (

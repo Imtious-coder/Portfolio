@@ -1,0 +1,45 @@
+.about {
+  img {
+    width: 100%;
+    height: auto;
+    border: 10px solid #1b9bff;
+  }
+
+  h1,
+  h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #1b9bff;
+    text-transform: uppercase;
+  }
+  h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: grey;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: grey;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    h1,
+    h2 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+    h6,
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
