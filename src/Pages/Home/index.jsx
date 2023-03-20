@@ -30,7 +30,7 @@ const Index = () => {
 
   return (
     <>
-      <Meta title={"Home"} />
+      <Meta title={"Imtious Islam Portfolio"} />
       {/* HERO SECTION */}
       <section className="home-wrapper hero py-3 py-md-5">
         <div className="container-lg py-md-5">
