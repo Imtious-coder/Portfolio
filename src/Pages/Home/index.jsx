@@ -163,10 +163,17 @@ const Index = () => {
                   <span className="blue">Portfolio</span>
                 </h1>
                 <h6 className="sub-heading">
-                  A portfolio is much more than a simple showcase of work, its
-                  personality is just as important <br /> as the projects
-                  displayed on it.
+                  A portfolio is a taste of my work. It's speak about my
+                  personality.
+                  <br /> The coding patterns & the design is reflected by the
+                  projects.
                 </h6>
+                <p className="note mt-4">
+                  *Please note: Hovering on the card will hide the project
+                  details.
+                  <br /> & hovering or touch on details will show more
+                  information.
+                </p>
               </div>
             </div>
             <div className="col-12">

@@ -82,6 +82,13 @@
     text-align: center;
     line-height: 26px;
   }
+  .note {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1b9bff;
+    margin-bottom: 0;
+  }
   @media only screen and (max-width: 450px) {
     .heading span {
       font-size: 28px;

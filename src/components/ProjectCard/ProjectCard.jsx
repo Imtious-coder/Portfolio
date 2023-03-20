@@ -12,7 +12,7 @@ const ProjectCard = () => {
         {projectData?.map((projects, index) => {
           return (
             <div
-              className="col-12 col-md-5 col-lg-4 p-0 project-card position-relative hvr-grow"
+              className="col-12 col-md-5 col-lg-4 my-4 my-sm-0 p-0 project-card position-relative hvr-box-shadow-outset"
               key={index}
             >
               <iframe
