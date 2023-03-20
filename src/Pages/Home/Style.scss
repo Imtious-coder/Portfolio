@@ -12,6 +12,11 @@
     color: #444;
     font-weight: 700;
     font-family: "Moulpali", cursive;
+
+    .icon {
+      font-size: 16px;
+      margin-left: 2px;
+    }
   }
   h6 {
     font-size: 18px;
@@ -27,7 +32,8 @@
       font-size: 42px;
     }
     h4 {
-      font-size: 16px;
+      font-size: 15px;
+      font-weight: 500;
       line-height: 32px;
     }
     h6 {
