@@ -30,10 +30,10 @@ const ProjectDetails = () => {
               <iframe
                 src={website}
                 title="website"
-                className="website shadow"
+                className="website shadow py-3 px-2 rounded-3"
               ></iframe>
             </div>
-            <div className="col-12 col-md-6 mt-4 mt-md-0">
+            <div className="col-12 col-md-6 mt-4 mt-md-0 ps-0 ps-md-5">
               <div>
                 <h1 className="text-sm-center text-md-start">{name}</h1>
                 <h5 className="blue text-sm-center text-md-start my-3">
