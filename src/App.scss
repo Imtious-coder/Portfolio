@@ -51,12 +51,12 @@ button {
   border: none;
   border-radius: 55px;
   transition: all 0.4s;
-}
 
-button:hover {
-  transform: scale(1.08);
-  box-shadow: inset 0 0 10px 0.5px rgba(0, 21, 255, 0.991),
-    0 0 30px rgba(120, 190, 255, 0.991);
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: inset 0 0 10px 0.5px rgba(0, 21, 255, 0.991),
+      0 0 30px rgba(120, 190, 255, 0.991);
+  }
 }
 
 .button2 {
@@ -69,10 +69,41 @@ button:hover {
   border: 2px solid #1b9bff;
   transition: all 0.3s;
   text-transform: uppercase;
+
+  &:hover {
+    background: #1b9bff;
+    transform: scale(1.08);
+    box-shadow: inset 0 0 10px 0.5px #1b9bff, 0 0 30px #1b9bff;
+  }
 }
 
 .button2:hover {
   background: #1b9bff;
   transform: scale(1.08);
   box-shadow: inset 0 0 10px 0.5px #1b9bff, 0 0 30px #1b9bff;
+}
+
+.button3 {
+  color: #1b9bff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 30px;
+  border-radius: 50px;
+  background: transparent;
+  border: 2px solid #1b9bff;
+  text-transform: uppercase;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: none;
+    color: white;
+    background-image: linear-gradient(
+      80deg,
+      rgba(0, 21, 255, 0.991),
+      rgba(57, 159, 255, 0.991)
+    );
+    box-shadow: inset 0 0 10px 0.5px rgba(0, 21, 255, 0.991),
+      0 0 30px rgba(120, 190, 255, 0.991);
+  }
 }

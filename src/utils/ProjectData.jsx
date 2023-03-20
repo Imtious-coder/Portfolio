@@ -9,9 +9,9 @@ export const projectData = [
     image: "https://i.ibb.co/mz4tByb/Image.png",
     fullImage: "https://i.ibb.co/86fJLJW/Image.png",
     code: "https://github.com/Imtious-coder/Hiree.io",
-    li1: " 1: Smart hiring system website.",
-    li2: " 2: Unlimited functionality with 100% responsiveness and clean code.",
-    li3: " 3: Admin dashboard for managing the whole website data.",
+    li1: " 1. Smart hiring system website.",
+    li2: " 2. Unlimited functionality with 100% responsiveness and clean code.",
+    li3: " 3. Admin dashboard for managing the whole website data.",
   },
   // {
   //   id: 1,

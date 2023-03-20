@@ -2,6 +2,7 @@ import React from "react";
 import { BsArrowUpCircle } from "react-icons/bs";
 import { FaEye } from "react-icons/fa";
 import { MdAdsClick } from "react-icons/md";
+import { Link } from "react-router-dom";
 import { projectData } from "../../utils/ProjectData";
 import "./ProjectCard.scss";
 
@@ -32,9 +33,12 @@ const ProjectCard = () => {
                     <FaEye />
                     Preview
                   </button>
-                  <button className="button2 d-flex gap-2 align-items-center">
+                  <Link
+                    to={"/projects/" + projects.name}
+                    className="button2 d-flex gap-2 align-items-center"
+                  >
                     Details <MdAdsClick />
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
