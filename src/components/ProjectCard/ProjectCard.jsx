@@ -1,4 +1,5 @@
-import React from "react";
+import AOS from "aos";
+import React, { useEffect } from "react";
 import { BsArrowUpCircle } from "react-icons/bs";
 import { FaEye } from "react-icons/fa";
 import { MdAdsClick } from "react-icons/md";
@@ -7,6 +8,9 @@ import { projectData } from "../../utils/ProjectData";
 import "./ProjectCard.scss";
 
 const ProjectCard = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   const { pathname } = useLocation();
   return (
     <div
@@ -18,6 +22,7 @@ const ProjectCard = () => {
         {projectData?.map((projects, index) => {
           return (
             <div
+              data-aos="zoom-in"
               className={`${
                 pathname === "/projects"
                   ? "col-12 all-project-card"
