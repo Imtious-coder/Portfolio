@@ -211,7 +211,7 @@ const Index = () => {
         </div>
       </section>
       {/* CONTACT FORM */}
-      <section className="home-wrapper contact-form py-5">
+      <section className="home-wrapper contact-form py-5 overflow-hidden">
         <div className="container-lg">
           <div className="row">
             <div className="col-12 pb-3 pb-md-5">

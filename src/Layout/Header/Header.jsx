@@ -10,8 +10,8 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <>
-      <header className="header-top-strip pb-1 mb-1 sticky-top">
+    <header className="sticky-top">
+      <section className="header-top-strip pb-1 mb-1">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-8 d-none d-md-flex gap-5">
@@ -51,12 +51,12 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </header>
-      <header className="header-main py-4 sticky-top">
+      </section>
+      <section className="header-main pb-4 pt-md-3 ">
         <div className="container-lg py-2">
           <div className="row d-flex align-items-center">
             <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
-              <Link to="/" className="logo">
+              <Link to="/" className="logo d-none d-sm-block">
                 <h1>Imtious Islam</h1>
               </Link>
             </div>
@@ -99,8 +99,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </header>
-    </>
+      </section>
+    </header>
   );
 };
 

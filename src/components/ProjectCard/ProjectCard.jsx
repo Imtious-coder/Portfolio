@@ -9,14 +9,14 @@ import "./ProjectCard.scss";
 
 const ProjectCard = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 2000 });
   }, []);
   const { pathname } = useLocation();
   return (
     <div
       className={`${
         pathname === "/projects" ? "px-4 px-md-5 " : "px-0"
-      } container`}
+      } container overflow-hidden`}
     >
       <div className="row gap-4 justify-content-center">
         {projectData?.map((projects, index) => {
