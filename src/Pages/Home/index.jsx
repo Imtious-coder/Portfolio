@@ -218,7 +218,7 @@ const Index = () => {
                   <span className="blue">Me</span>
                 </h1>
                 <h6 className="sub-heading">
-                  You can tell me about your project in this form or contact me
+                  Tell me about your project. Send a message by the form or contact me
                   by Email, <br /> LinkedIn, Facebook, Messenger or Phone Number
                   😊
                 </h6>
