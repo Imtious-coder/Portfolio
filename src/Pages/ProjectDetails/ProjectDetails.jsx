@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCodeBranch, FaGlobeAsia } from "react-icons/fa";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { projectData } from "../../utils/ProjectData";
 import "./ProjectDetails.scss";
 
@@ -9,9 +9,10 @@ const ProjectDetails = () => {
   const details = projectData?.find((detail) => detail.name === projectName);
   const {
     name,
-    website,
     type,
     description,
+    website,
+    code,
     li1,
     li2,
     li3,
@@ -49,12 +50,20 @@ const ProjectDetails = () => {
                   <li className="text-sm-center text-md-start"> {li7} </li>
                 </ul>
                 <div className="d-flex align-items-center justify-content-center justify-content-md-start gap-4 gap-md-5">
-                  <button className="button3 d-flex justify-content-center align-items-center">
+                  <Link
+                    to={website}
+                    target={"_blank"}
+                    className="button3 d-flex justify-content-center align-items-center"
+                  >
                     Live &nbsp; <FaGlobeAsia />
-                  </button>
-                  <button className="d-flex justify-content-center align-items-center">
+                  </Link>
+                  <Link
+                    to={code}
+                    target={"_blank"}
+                    className="button d-flex justify-content-center align-items-center"
+                  >
                     Code &nbsp; <FaCodeBranch />
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

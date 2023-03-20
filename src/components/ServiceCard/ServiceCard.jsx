@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { services as serviceData } from "../../utils/ServicesData";
 import "./ServiceCard.scss";
 
@@ -21,7 +22,9 @@ const ServiceCard = () => {
                   <h2>{service.title}</h2>
                   <h5 className="py-3">{service.description}</h5>
                 </div>
-                <button>Continue</button>
+                <Link to="/" className="button">
+                  Continue
+                </Link>
               </div>
             </div>
           );

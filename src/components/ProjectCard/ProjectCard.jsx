@@ -29,10 +29,10 @@ const ProjectCard = () => {
                 <h5 className="mb-2">{projects.type}</h5>
                 <h6 className="my-3">{projects.description}</h6>
                 <div className="d-flex justify-content-center gap-3 align-items-center">
-                  <button className="button2 d-flex gap-2 align-items-center">
+                  <Link to="/" className="button2 d-flex gap-2 align-items-center">
                     <FaEye />
                     Preview
-                  </button>
+                  </Link>
                   <Link
                     to={"/projects/" + projects.name}
                     className="button2 d-flex gap-2 align-items-center"
