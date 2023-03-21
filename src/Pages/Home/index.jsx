@@ -53,14 +53,13 @@ const Index = () => {
                 <h1 className="mb-0 text-center text-sm-start">
                   Imtious Islam
                 </h1>
-                <h4 className="mb-3 mt-2 text-center text-sm-start d-flex align-items-center">
+                <h4 className="mb-2 mt-2 d-flex justify-content-center justify-content-sm-start align-items-center">
                   Professional
                   <span className="mx-1 blue d-flex align-items-center">
                     React Developer <FaReact className="icon" />
                   </span>
-                  &
-                  <span className="ms-1 red d-flex align-items-center">
-                    Bug Finder <FaBug className="icon" />
+                  <span className="ms-1 blue d-flex align-items-center">
+                    & Bug Finder <FaBug className="icon" />
                   </span>
                 </h4>
                 <h6 className="mb-4">
