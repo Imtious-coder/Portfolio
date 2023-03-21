@@ -5,9 +5,9 @@ import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import Marquee from "react-fast-marquee";
 import { AiFillApple } from "react-icons/ai";
-import { FaBug, FaReact } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 import HeroImage from "../../Assets/Images/hero.png";
 import Logo1 from "../../Assets/Images/marqueeLogo01.webp";
 import Logo2 from "../../Assets/Images/marqueeLogo02.jpg";
@@ -53,14 +53,14 @@ const Index = () => {
                 <h1 className="mb-0 text-center text-sm-start">
                   Imtious Islam
                 </h1>
-                <h4 className="mb-2 mt-2 d-flex justify-content-center justify-content-sm-start align-items-center">
-                  Professional
-                  <span className="mx-1 blue d-flex align-items-center">
-                    React Developer <FaReact className="icon" />
-                  </span>
-                  <span className="ms-1 blue d-flex align-items-center">
-                    & Bug Finder <FaBug className="icon" />
-                  </span>
+                <h4 className="title mb-2 mt-2 d-flex justify-content-center justify-content-sm-start align-items-center">
+                  Professional &nbsp;
+                  <TypeAnimation
+                    className="blue"
+                    sequence={["React Developer </>", 1500, "Bug Finder 🪲", 1500]}
+                    speed={50}
+                    repeat={Infinity}
+                  />
                 </h4>
                 <h6 className="mb-4">
                   <strong>2+</strong> years of professional experience as a
