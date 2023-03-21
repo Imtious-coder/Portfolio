@@ -57,7 +57,12 @@ const Index = () => {
                   Professional &nbsp;
                   <TypeAnimation
                     className="blue"
-                    sequence={["React Developer </>", 1500, "Bug Finder 🪲", 1500]}
+                    sequence={[
+                      "React Developer </>",
+                      1500,
+                      "Bug Finder 🪲",
+                      1500,
+                    ]}
                     speed={50}
                     repeat={Infinity}
                   />
