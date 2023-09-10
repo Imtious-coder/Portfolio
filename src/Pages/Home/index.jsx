@@ -28,6 +28,18 @@ const Index = () => {
 
   const [state, handleSubmit] = useForm("xwkjqgyg");
 
+  // const [ip, setIP] = useState("");
+
+  // const getData = async () => {
+  //   const res = await axios.get("https://geolocation-db.com/json/");
+  //   console.log(res.data);
+  //   setIP(res.data.IPv4);
+  //   console.log(res.data.IPv4);
+  // };
+  // useEffect(() => {
+  //   getData();
+  // }, []);
+
   return (
     <>
       <Meta title={"Imtious Islam Portfolio"} />
@@ -68,13 +80,13 @@ const Index = () => {
                   />
                 </h4>
                 <h6 className="mb-4">
-                  <strong>2+</strong> years of professional experience as a
-                  Frontend Developer. Passionate and highly skilled in front-end
-                  development with pixel-perfect design and the use of the
+                  Almost<strong> 3</strong> years of professional experience as
+                  a Frontend Developer. Passionate and highly skilled in
+                  front-end development with pixel-perfect design and using the
                   latest technologies and tools. Self-motivated, organized, with
                   excellent time management skills, and willing to take
-                  challenges to improve my knowledge with the success of the
-                  organization. Curious about AI technology.
+                  challenges to improve my knowledge with the organization’s
+                  success. Curious about AI.
                 </h6>
                 <div className="d-flex justify-content-center justify-content-sm-start">
                   <Link

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './Layout/Layout/Layout.jsx';
@@ -11,9 +11,12 @@ import Tests from './utils/Tests';
 function App() {
   const [hacked, setHacked] = useState(true)
 
+ useEffect(() => {
   setTimeout(() => {
     setHacked(false)
-  }, 4000);
+  }, 3500);
+ }, []);
+  
   return (
     <>
       <BrowserRouter>
