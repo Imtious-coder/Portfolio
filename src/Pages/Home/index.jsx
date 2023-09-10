@@ -78,7 +78,7 @@ const Index = () => {
                 </h6>
                 <div className="d-flex justify-content-center justify-content-sm-start">
                   <Link
-                    to="https://drive.google.com/file/d/1D53fgFmX6FV5LVcUZgMcig9V4cuY70Ec/view?usp=sharing"
+                    to="https://drive.google.com/file/d/1esQxMVdlezqnCYCpSaN3SFzrFQFZh8_6/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="hvr-grow"
