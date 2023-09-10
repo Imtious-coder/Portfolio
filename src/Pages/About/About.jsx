@@ -20,13 +20,13 @@ const About = () => {
               <div className="pb-4" data-aos="fade-left">
                 <h1 className="text-center text-sm-start mb-3">About me</h1>
                 <h6>
-                  <strong>2+</strong> years of professional experience as a
-                  Frontend Developer. Passionate and highly skilled in front-end
-                  development with pixel-perfect design and the use of the
-                  latest technologies and tools. Self-motivated, organized, with
+                  Almost 3 years of professional experience as a Frontend
+                  Developer. Passionate and highly skilled in front-end
+                  development with pixel-perfect design and using the latest
+                  technologies and tools. Self-motivated, organized, with
                   excellent time management skills, and willing to take
-                  challenges to improve my knowledge with the success of the
-                  organization. Curious about AI technology.
+                  challenges to improve my knowledge with the organization’s
+                  success. Curious about AI.
                 </h6>
               </div>
               <div data-aos="flip-up" className="shadow p-4 rounded-4">
