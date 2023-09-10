@@ -102,3 +102,9 @@ a {
       0 0 30px rgba(120, 190, 255, 0.991);
   }
 }
+
+// HACKED IMAGE
+.hacked {
+  width: 100%;
+  height: calc(100vh - 20px) !important;
+}
