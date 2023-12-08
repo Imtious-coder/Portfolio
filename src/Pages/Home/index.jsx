@@ -80,10 +80,10 @@ const Index = () => {
                   />
                 </h4>
                 <h6 className="mb-4">
-                  Almost<strong> 3</strong> years of professional experience as
-                  a Frontend Developer. Passionate and highly skilled in
-                  front-end development with pixel-perfect design and using the
-                  latest technologies and tools. Self-motivated, organized, with
+                  <strong> 3+</strong> years of professional experience as a
+                  Frontend Developer. Passionate and highly skilled in front-end
+                  development with pixel-perfect design and using the latest
+                  technologies and tools. Self-motivated, organized, with
                   excellent time management skills, and willing to take
                   challenges to improve my knowledge with the organization’s
                   success. Curious about AI.
