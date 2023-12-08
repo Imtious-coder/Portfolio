@@ -20,7 +20,7 @@ const About = () => {
               <div className="pb-4" data-aos="fade-left">
                 <h1 className="text-center text-sm-start mb-3">About me</h1>
                 <h6>
-                  Almost 3 years of professional experience as a Frontend
+                  3+ years of professional experience as a Frontend
                   Developer. Passionate and highly skilled in front-end
                   development with pixel-perfect design and using the latest
                   technologies and tools. Self-motivated, organized, with

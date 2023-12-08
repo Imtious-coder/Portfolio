@@ -153,7 +153,7 @@ const Index = () => {
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
-                    <CountUp delay={7} end={2} duration={5} />+
+                    <CountUp delay={7} end={3} duration={5} />+
                   </h2>
                   <h5>Years of experience 💪🏻</h5>
                 </div>
