@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setHacked(false);
-    }, 3500);
+    }, 5);
   }, []);
 
   // GA4
