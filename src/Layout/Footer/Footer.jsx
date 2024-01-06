@@ -105,7 +105,7 @@ const Footer = () => {
       </footer>
       <footer className="footer-wrapper-2 py-2">
         <h6 className="mb-0 text-center text-white">
-          © All rights 2023 reserved by "Imtious Islam"
+          © All rights 2024 reserved by "Imtious Islam"
         </h6>
       </footer>
     </>
