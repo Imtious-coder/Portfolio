@@ -27,14 +27,10 @@ const ProjectCard = () => {
                 pathname === "/projects"
                   ? "col-12 all-project-card"
                   : "col-12 col-md-5 col-lg-4"
-              } my-4 my-sm-0 p-0 project-card position-relative hvr-box-shadow-outset`}
+              } my-4 my-sm-0 p-0 project-card position-relative `}
               key={index}
             >
-              <iframe
-                src={projects.website}
-                title="website"
-                className="website"
-              ></iframe>
+              <img src={projects.fullImage} className="website" alt="" />
               <div className="details position-absolute">
                 <div className="position-absolute up">
                   <BsArrowUpCircle />

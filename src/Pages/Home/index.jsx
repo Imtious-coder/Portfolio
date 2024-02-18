@@ -132,7 +132,7 @@ const Index = () => {
       {/* COUNTUP SECTION */}
       <section
         data-aos="zoom-in"
-        className="home-wrapper counts py-3 py-md-5 my-5"
+        className="home-wrapper counts py-3 py-md-5 mt-5"
       >
         <div className="container-lg">
           <div className="row">
@@ -169,13 +169,13 @@ const Index = () => {
         </div>
       </section>
       {/* PROJECTS SECTION */}
-      <section className="home-wrapper projects py-3">
+      <section className="home-wrapper projects pb-3 pt-5">
         <div className="container-lg">
           <div className="row">
             <div className="col-12 pb-3 pb-md-5">
               <div>
                 <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
-                  <span className="border-left">Creative</span> &nbsp;
+                  <span className="border-left text-white">Creative</span> &nbsp;
                   <span className="blue">Portfolio</span>
                 </h1>
                 <h6 className="sub-heading">
@@ -207,11 +207,11 @@ const Index = () => {
         </div>
       </section>
       {/* MARQUEE SECTION */}
-      <section className="home-wrapper marquee py-5 mt-4 mb-5">
+      <section className="home-wrapper marquee py-5 mb-5">
         <div className="container-lg">
           <div className="row">
             <div className="col-12">
-              <Marquee speed="40" gradientColor={[17, 0, 13]}>
+              <Marquee speed="40" gradientColor={[41, 155, 255]}>
                 <div className="d-flex align-items-center-justify-content-center gap-5">
                   <img src={Logo1} alt="logo1" className="img-fluid logo1" />
                   <img src={Logo2} alt="logo2" className="img-fluid logo2" />
