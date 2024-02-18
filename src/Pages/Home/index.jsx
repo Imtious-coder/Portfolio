@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import Marquee from "react-fast-marquee";
-import { AiFillApple } from "react-icons/ai";
 import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
@@ -175,7 +174,8 @@ const Index = () => {
             <div className="col-12 pb-3 pb-md-5">
               <div>
                 <h1 className="heading d-flex align-items-center justify-content-center py-md-3">
-                  <span className="border-left text-white">Creative</span> &nbsp;
+                  <span className="border-left text-white">Creative</span>{" "}
+                  &nbsp;
                   <span className="blue">Portfolio</span>
                 </h1>
                 <h6 className="sub-heading">
@@ -192,17 +192,17 @@ const Index = () => {
                 </p>
               </div>
             </div>
-            <div className="col-12">
+            <div className="col-12 mb-5">
               <ProjectCard />
             </div>
-            <div className="col-12 d-flex justify-content-center">
+            {/* <div className="col-12 d-flex justify-content-center">
               <Link
                 to="/projects"
                 className="button my-5 d-flex gap-2 align-items-center justify-content-center"
               >
                 All Projects <AiFillApple />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
