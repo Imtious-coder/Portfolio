@@ -15,6 +15,7 @@ import Logo4 from "../../Assets/Images/marqueeLogo04.webp";
 import Logo5 from "../../Assets/Images/marqueeLogo05.jpeg";
 import Logo6 from "../../Assets/Images/marqueeLogo06.png";
 import Logo7 from "../../Assets/Images/marqueeLogo07.png";
+import Logo8 from "../../Assets/Images/marqueeLogo08.png";
 import Meta from "../../components/Meta/Meta";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
@@ -220,6 +221,7 @@ const Index = () => {
                   <img src={Logo4} alt="logo4" className="img-fluid logo4" />
                   <img src={Logo6} alt="logo6" className="img-fluid logo6" />
                   <img src={Logo7} alt="logo7" className="img-fluid logo7" />
+                  <img src={Logo8} alt="logo8" className="img-fluid logo8" />
                 </div>
               </Marquee>
             </div>
