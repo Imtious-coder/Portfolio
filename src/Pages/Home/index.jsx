@@ -80,13 +80,11 @@ const Index = () => {
                   />
                 </h4>
                 <h6 className="mb-4">
-                  <strong> 3+</strong> years of professional experience as a
-                  Frontend Developer. Passionate and highly skilled in front-end
+                  <strong> 3.5+</strong> years I have been busting my ass as a
+                  Developer. Passionate and highly skilled in front-end
                   development with pixel-perfect design and using the latest
-                  technologies and tools. Self-motivated, organized, with
-                  excellent time management skills, and willing to take
-                  challenges to improve my knowledge with the organization’s
-                  success. Curious about AI.
+                  technologies and tools. Dating javaScript is like exploring
+                  her beauty every single day. Curious about AI.
                 </h6>
                 <div className="d-flex justify-content-center justify-content-sm-start">
                   <Link
@@ -117,9 +115,7 @@ const Index = () => {
                   <span className="blue">Services</span>
                 </h1>
                 <h6 className="sub-heading">
-                  The best service that you want. Very low pricing for most
-                  advance service. <br /> Contact me for more details about the
-                  services.
+                  The best service that you want 💻
                 </h6>
               </div>
             </div>
@@ -140,13 +136,13 @@ const Index = () => {
               <div className="row d-flex align-items-center justify-content-between">
                 <div className=" pt-5 pt-sm-0 col-12 col-sm-6 col-md-3 count">
                   <h2>
-                    <CountUp delay={5} end={34} duration={10} />+
+                    <CountUp delay={5} end={49} duration={10} />+
                   </h2>
                   <h5>Project Done ✅</h5>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
-                    <CountUp delay={7} end={12000} duration={5} />
+                    <CountUp delay={7} end={158000} duration={5} />
                     k+
                   </h2>
                   <h5>Lines of coding 👩🏻‍💻</h5>
@@ -159,7 +155,7 @@ const Index = () => {
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 count">
                   <h2>
-                    <CountUp delay={9} end={750} duration={5} />+
+                    <CountUp delay={9} end={1123} duration={5} />+
                   </h2>
                   <h5>Coffee Consumed 🍵</h5>
                 </div>

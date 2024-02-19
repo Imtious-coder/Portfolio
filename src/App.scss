@@ -12,7 +12,16 @@ $border: #deeaff;
 
 body {
   overflow-x: hidden;
-  border: 10px solid $border;
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgb(0, 128, 255),
+      #0079ff,
+      #590696,
+      #5d1df4
+    )
+    1;
 }
 
 a {
@@ -63,12 +72,13 @@ a {
 .button2 {
   font-size: 14px;
   font-weight: 600;
-  padding: 5px 20px;
+  padding: 4px 18px;
   border-radius: 25px;
   text-transform: uppercase;
   color: #1b9bff;
   background-color: white;
   transition: all 0.3s;
+  border: 2px solid transparent;
 
   &:hover {
     color: white;

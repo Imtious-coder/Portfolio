@@ -10,21 +10,21 @@ export const services = [
     number: 1,
     logo: <FaLaptopCode />,
     description:
-      "I can design any website of your choice. The design will be very attractive and user friendly.",
+      "Thoughts can be converted to an awesome Design. Just draw it.",
   },
   {
     title: "Responsive Design",
     number: 2,
     logo: <TbDevices />,
     description:
-      "Your website will be 100% responsive, user friendly and support in all standard devices.",
+      "Phone can be broken but not a website. Just tell me.",
   },
   {
     title: "Bug Fixing",
     number: 3,
     logo: <AiFillBug />,
     description:
-      "I will fix any kind of bugs. Also I'll add new feature, section, functionality awesome effects.",
+      "As long as it's not a feature and client never wanted that, it should be resolved.",
   },
   {
     title: "PSD to HTML5",
