@@ -80,11 +80,26 @@ const Index = () => {
                   />
                 </h4>
                 <h6 className="mb-4">
-                  <strong> 3.5+</strong> years I have been busting my ass as a
-                  Developer. Passionate and highly skilled in front-end
-                  development with pixel-perfect design and using the latest
-                  technologies and tools. Dating javaScript is like exploring
-                  her beauty every single day. Curious about AI.
+                  <span className="text-danger text-capitalize">
+                    <strong> 3.5+</strong> years I have been busting my ass as a
+                    Developer.
+                  </span>{" "}
+                  <span className="text-success text-capitalize">
+                    Passionate and highly skilled in front-end development with
+                    pixel-perfect design and using the latest technologies and
+                    tools.
+                  </span>{" "}
+                  <span className="text-capitalize">
+                    Dating javaScript is like exploring her beauty every single
+                    day.
+                  </span>{" "}
+                  <span className="text-primary text-capitalize">
+                    Life was a breeze until she came along, now I've faced over
+                    2000 challenges and counting🤪
+                  </span>
+                  <span className="text-warning text-capitalize">
+                    Curious about AI.
+                  </span>
                 </h6>
                 <div className="d-flex justify-content-center justify-content-sm-start">
                   <Link
@@ -115,7 +130,8 @@ const Index = () => {
                   <span className="blue">Services</span>
                 </h1>
                 <h6 className="sub-heading">
-                  The best service that you want 💻
+                  The best <span className="text-warning fw-bold">Service</span>{" "}
+                  that you want 💻
                 </h6>
               </div>
             </div>
@@ -182,8 +198,9 @@ const Index = () => {
                   projects.
                 </h6>
                 <p className="note mt-4">
-                  *Please note: Hovering on the card will hide the project
-                  details.
+                  *Please note: <span className="text-warning">Hovering</span>{" "}
+                  on the <span className="text-warning">Image</span> will hide
+                  the bottom details.
                   <br /> & hovering or touch on details will show more
                   information.
                 </p>
@@ -235,10 +252,18 @@ const Index = () => {
                   <span className="blue">Me</span>
                 </h1>
                 <h6 className="sub-heading">
+                  Send me anything, your{" "}
+                  <span className="text-warning fw-bold">Thoughts</span>,{" "}
+                  <span className="text-success fw-bold">Project Idea,</span>{" "}
+                  <span className="text-danger fw-bold">Poem,</span> <br /> even
+                  a <span className="text-primary fw-bold"> recipe</span> would
+                  be a great choice. 😊
+                </h6>
+                {/* <h6 className="sub-heading">
                   Tell me about your project. Send a message by the form or
                   contact me by Email, <br /> LinkedIn, Facebook, Messenger or
                   Phone Number 😊
-                </h6>
+                </h6> */}
               </div>
             </div>
             <div
@@ -248,7 +273,7 @@ const Index = () => {
               <div className="map d-flex align-items-center overflow-hidden">
                 <iframe
                   title="Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2046410.7233186755!2d90.79119435455188!3d23.373233044242355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f249815015d%3A0x549a77e542115f77!2sCumilla!5e0!3m2!1sen!2sbd!4v1679119575079!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830724.865100658!2d90.49780850719404!3d24.067216065096314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1708585019637!5m2!1sen!2sbd"
                   width="440"
                   height="300"
                   style={{ border: "0" }}
