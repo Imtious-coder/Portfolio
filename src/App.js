@@ -9,6 +9,7 @@ import ProjectDetails from "./Pages/ProjectDetails/ProjectDetails";
 import Tests from "./utils/Tests";
 // // GA4
 import ReactGA from "react-ga4";
+import CommingSoon from "./Pages/Comming_soon.jsx";
 
 function App() {
   const [hacked, setHacked] = useState(true);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/projects" element={<AllProjects />} />
             <Route path="projects/:projectName" element={<ProjectDetails />} />
             <Route path="/about" element={<About />} />
+            <Route path="/comming-soon" element={<CommingSoon />} />
           </Route>
         </Routes>
       </BrowserRouter>

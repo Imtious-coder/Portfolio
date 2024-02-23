@@ -51,16 +51,16 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-6">
                     <h5>Support</h5>
-                    <Link to="/pricing">
+                    <Link to="/comming-soon">
                       <h6>Pricing</h6>
                     </Link>
-                    <Link to="/contact">
+                    <Link to="/comming-soon">
                       <h6>Contact</h6>
                     </Link>
-                    <Link to="/faq">
+                    <Link to="/comming-soon">
                       <h6>FAQ</h6>
                     </Link>
-                    <Link to="/terms&Conditions">
+                    <Link to="/comming-soon">
                       <h6>Terms & Conditions</h6>
                     </Link>
                   </div>
