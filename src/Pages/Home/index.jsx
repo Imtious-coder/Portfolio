@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import Marquee from "react-fast-marquee";
 import { HiOutlineDownload } from "react-icons/hi";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import HeroImage from "../../Assets/Images/hero.png";
@@ -43,7 +44,8 @@ const Index = () => {
   return (
     <>
       <Meta title={"Imtious Islam Portfolio"} />
-      {/* HERO SECTION */}
+      <MessengerCustomerChat pageId="111433384149681" appId="352284424457165" />
+      ,{/* HERO SECTION */}
       <section className="home-wrapper hero py-3 py-md-5">
         <div className="container-lg py-md-5">
           <div className="row d-flex flex-row-reverse">
